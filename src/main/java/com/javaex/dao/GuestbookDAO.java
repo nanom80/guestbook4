@@ -11,9 +11,13 @@ import com.javaex.vo.GuestbookVO;
 @Repository
 public class GuestbookDAO {
 
-	// 필드
+	//필드
 	@Autowired
 	private SqlSession sqlSession;
+	
+	//생성자
+	
+	//메소드gs
 	
 	//전체 데이터 가져오기
 	public List<GuestbookVO> guestbookSelect() {
