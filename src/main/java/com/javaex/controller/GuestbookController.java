@@ -31,7 +31,7 @@ public class GuestbookController {
 	//http://localhost:8888/guestbook4/list
 	@RequestMapping(value="/list", method= {RequestMethod.GET, RequestMethod.POST})
 	public String list(Model model) {
-		System.out.println("GuestbookController.list()");
+		System.out.println("GuestbookController.listaaa()");
 		
 		//service
 		//guestbookService 메모리에 올리고 주소를 넣어라

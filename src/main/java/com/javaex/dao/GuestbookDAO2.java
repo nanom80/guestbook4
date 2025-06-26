@@ -93,8 +93,9 @@ public class GuestbookDAO2 {
 				String name = rs.getString("name");
 				String password = rs.getString("password");
 				String content = rs.getString("content");
+				String regDate = rs.getString("regDate");
 
-				GuestbookVO guestbookVO = new GuestbookVO(no, name, password, content);
+				GuestbookVO guestbookVO = new GuestbookVO(no, name, password, content, regDate);
 				guestbookList.add(guestbookVO);
 			}
 
