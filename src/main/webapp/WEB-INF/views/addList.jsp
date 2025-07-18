@@ -37,6 +37,12 @@
 	
 		<c:forEach items="${requestScope.gList}" var="guestbookVO">
 			<table border="1" width="540px">
+				<colgroup>
+			        <col width="50px">
+			        <col width="120px">
+			        <col width="70px">
+			        <col width="*">
+			    </colgroup>
 				<tr>
 					<td>${guestbookVO.no}</td>
 					<td>${guestbookVO.name}</td>
@@ -50,7 +56,6 @@
 			</table>
 			<br>
 		</c:forEach>
-		
 	
 	</body>
 </html>
