@@ -29,6 +29,7 @@ public class GuestbookController {
 	
 	//방명록 리스트
 	//http://localhost:8888/guestbook4/list
+	//http://13.125.206.63:8080/list
 	@RequestMapping(value="/list", method= {RequestMethod.GET, RequestMethod.POST})
 	public String list(Model model) {
 		System.out.println("GuestbookController.listaaa()");

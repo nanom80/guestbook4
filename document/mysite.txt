@@ -1,0 +1,8 @@
+등록폼
+http://localhost:8888/guestbook4/list
+http://13.125.206.63:8080/list
+
+삭제폼
+http://localhost:8888/guestbook4/rform
+http://13.125.206.63:8080/rform
+
